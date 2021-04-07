@@ -1,5 +1,4 @@
-**Summary of Project
-**
+# Summary of Project
 
 For this project, I used the Global Terrorism database which has infromation on attacks between 1970 and 2019 all around the world — which is 201,184 individual incidents. 
 
@@ -16,8 +15,7 @@ Each entry is labelled as one of the following categories:
 
 However, some of the Facility/Infrastructure attacks and hijackings are also bombings, so their categories need to be re-done. I was interested in classifying bombings and explosions in this dataset to predict whether or not an attack is a bombing. 
 
-**Method 
-**
+## Method 
 
 I first created a column with boolean 0/1 values for whether the attack is classified as a bombing in the dataset. 
 
@@ -27,8 +25,7 @@ I tried a Decision Tree Classifier, (0.7805392078892953), Nearest Centroid (0.74
 
 The most important features were “explosive,” “bomb,” “detonate,” and “firebomb.”
 
-**Next Steps
-**
+## Next Steps
 
 I plan to map all the exact locations of bombings, since I have the latitude and longitude for each of them. 
 
